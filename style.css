@@ -3,8 +3,8 @@
         background: blue;
     }
     .cards {
-        display: block;
-    }
+        flex-direction: column;
+         }
 }
     /* .wrap{
         width: auto;
@@ -54,6 +54,7 @@ nav ul li{
 
 .cards{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .cardContainer{
